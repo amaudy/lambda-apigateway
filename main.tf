@@ -11,7 +11,7 @@ module "echo_api" {
   domain_name     = var.domain_name
   certificate_arn = var.certificate_arn
   route53_zone_id = var.route53_zone_id
-  tags           = {
+  tags = {
     Environment = var.environment
     Project     = var.project_name
   }
