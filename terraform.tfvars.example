@@ -1,0 +1,7 @@
+project_name = "poc-api"
+environment  = "dev"
+aws_region   = "us-east-1"
+api_key      = "xxx"
+domain_name     = "api.your-domain.com"
+certificate_arn = "arn:aws:acm:region:account:certificate/certificate-id"
+route53_zone_id = "ZXXXXXXXXXXXXX"
